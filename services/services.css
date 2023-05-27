@@ -8,15 +8,18 @@
 
 /* ?Header start---------------------------------------- */
 .header {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 97%;
   margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .travolic-text-container {
-  background-color: #7fff00;
+  /* background-color: #7fff00; */
 }
 
 .travolic-text-container h2 {
@@ -31,7 +34,7 @@
 }
 
 .travolic-link-container {
-  background-color: #00bfff;
+  /* background-color: #daa520; */
 }
 
 .travolic-link-container ul li {
@@ -44,6 +47,90 @@
 
 .header-ul {
   display: flex;
+  align-items: center;
   gap: 83px;
 }
+
+.home,
+.about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.about {
+  padding-right: 65px;
+}
+.services {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1090cb;
+  padding-right: 100px;
+}
+
+.contact-btn {
+  background: #1090cb;
+  border-radius: 6px;
+  width: 125px;
+  height: 41px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
 /* ?Header end---------------------------------------- */
+/* !Main start--------------------------------------- */
+.main-container {
+  background-color: #e7f4f9;
+  border-top: 1px solid #c4c4c4;
+}
+
+.main {
+  /* background-color: red; */
+  text-align: center;
+  margin-top: 78px;
+}
+
+.speaker-angle {
+  width: 135px;
+  height: 135px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+
+.main-text {
+  margin-bottom: 18px;
+}
+
+.main-text-p {
+  width: 350px;
+  height: 96px;
+  margin: 0 auto;
+  margin-bottom: 71px;
+}
+
+.main-text-p p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  text-align: center;
+  color: #696969;
+}
+/* !Main end----------------------------------------- */
