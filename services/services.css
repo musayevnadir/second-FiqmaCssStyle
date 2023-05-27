@@ -1,0 +1,49 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ?Header start---------------------------------------- */
+.header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+}
+
+.travolic-text-container {
+  background-color: #7fff00;
+}
+
+.travolic-text-container h2 {
+  width: 121px;
+  height: 44px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 44px;
+  color: #1090cb;
+}
+
+.travolic-link-container {
+  background-color: #00bfff;
+}
+
+.travolic-link-container ul li {
+  list-style: none;
+}
+
+.travolic-link-container ul li a {
+  text-decoration: none;
+}
+
+.header-ul {
+  display: flex;
+  gap: 83px;
+}
+/* ?Header end---------------------------------------- */
